@@ -1,0 +1,88 @@
+.exam-container {
+    position: relative;
+    padding: 16px;
+    padding-top: 24px;
+    padding-left: 24px;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+  }
+  
+  .title {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    padding-left: 12px;
+    padding-right: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 999px;
+    top: -12px;
+    left: 24px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .question-container {
+    margin-top: 16px;
+  }
+  
+  .question-text {
+    margin-bottom: 8px;
+    color: #ffc400;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .option-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .option-label input {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  
+  .feedback {
+    display: none;
+    margin-top: 8px;
+    color: #64ffda;
+  }
+  
+  .feedback.correct {
+    display: block;
+  }
+
+  .blockquote-container {
+    padding-left: 16px;
+    border-left: 4px solid #64ffda;
+    color: #81e0ff;
+    background: #282C34;
+    font-size: 14px;
+    padding: 15px;
+  }
+  
+  .blockquote-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+  }

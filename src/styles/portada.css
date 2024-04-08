@@ -1,0 +1,69 @@
+.secciones-portada {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 87vh;
+    width: 100%;
+  }
+
+.background-container {
+    background-image: url('../assets/fondo-portada5.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .title-portada-sub{
+    font-family:  system-ui;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-indra-yellow);
+  
+  }
+  
+  .title-portada{   
+    font-size: 4rem;
+    font-weight: bold;
+    color: #6ee1bd;
+    margin: 0;
+    
+  }
+  .img-logo {
+    width: 10%;
+    height: 10%;
+    object-fit:cover
+  }
+
+  .img-portada {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+  .delivery {
+    position: absolute;
+    background-color: #ffad4b;
+    bottom: 0;
+    left: 0;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & p {
+      font-size: 1rem;
+      color: var(--color-indra);
+      text-align: center;
+    }
+  }
+  
+.circle{
+   border: 1px solid var(--color-indra); 
+   background-color: var(--color-indra);
+    width: 100%;
+    & p {
+      font-size: 1rem;
+      color: var(--color-indra-white);
+      text-align: center;
+    }
+
+}

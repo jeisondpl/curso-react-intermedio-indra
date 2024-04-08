@@ -1,0 +1,12 @@
+export { default as Tema1 } from './Tema1';
+export { default as Tema2 } from './Tema2';
+export { default as Tema3 } from './Tema3';
+export { default as Portada } from './Portada';
+export { default as Htmlx } from './Htmlx';
+export { default as Objetivo } from './Objetivo';
+export { default as Cronograma } from './Cronograma';
+export { default as HtmlCurso } from './HtmlCurso';
+export { default as MetodologiaParte1 } from './MetodologiaParte1';
+export { default as MetodologiaParte2 } from './MetodologiaParte2';
+export { default as InfoProfe } from './InfoProfe';
+export { default as Gracias } from './Gracias';
