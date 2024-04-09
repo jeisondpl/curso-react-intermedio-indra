@@ -1,12 +1,15 @@
-import './App.css'
-import Home from './pages/Home'
 import { ThemeProvider } from '@mui/material/styles'
+import { BrowserRouter } from 'react-router-dom'
 import { theme } from './styles/theme'
+import Routers from './routers'
+import './App.css'
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <BrowserRouter>
+        <Routers />
+      </BrowserRouter>
     </ThemeProvider>
   )
 }

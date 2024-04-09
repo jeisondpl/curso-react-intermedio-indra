@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      p {
+        color: red;
+      }
+      input {
+        color: blue;
+        font-size: 20px;
+      }
+      h1 {
+        color: green;
+      }
+      .caja {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        border: 1px solid black;
+        border-radius: 50%;
+      }
+      button {
+        margin-top: 40px;
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>hola mundo</p>
+    <input type="text" />
+    <section>
+      <h1>hola mundo</h1>
+      <p>hola mundo</p>
+      <div class="caja"></div>
+      <button>cambiar</button>
+    </section>
+    <script>
+      let jeison
+      const alejo = 'alejo'
+
+      const p = document.querySelector('p')
+      const input = document.querySelector('input')
+      const h1 = document.querySelector('h1')
+      const caja = document.querySelector('.caja')
+
+      button.addEventListener('click', () => {
+        alert('hola mundo')
+        caja.style.backgroundColor = 'blue'
+        p.innerText = 'hola mundo desde js'
+        p.style.color = 'blue'
+        input.style.color = 'red'
+        h1.style.color = 'yellow'
+        caja.style.backgroundColor = 'red'
+      })
+    </script>
+  </body>
+</html>

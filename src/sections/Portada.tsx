@@ -1,13 +1,17 @@
 import portada from '../assets/portada-jeison.png'
-import '../styles/portada.css'
-
 import logoReact from '../assets/logos/logo-react.png'
 import git from '../assets/logos/git.png'
 import logoHtml from '../assets/logos/logo-html.png'
 import logoCss from '../assets/logos/logo-css.png'
 import { useEffect, useState } from 'react'
+import '../styles/portada.css'
 
-const Portada = () => {
+interface Props {
+  title: string
+  description: string
+}
+
+const Portada = ({ title, description }: Props) => {
   //contador de tiempo setInterval
   const [time, setTime] = useState(300)
 
@@ -40,8 +44,10 @@ const Portada = () => {
           justifyContent: 'left',
         }}
       >
+        <span className='title-portada-sub'>{title}</span>
         <span className='title-portada'>REACT.JS</span>
         <span className='title-portada-sub'>Formación en Programador React JS Nivel Intermedio</span>
+        <h2 className='subtitle'>{description}</h2>
       </div>
       <div
         style={{
@@ -59,10 +65,10 @@ const Portada = () => {
             justifyContent: 'center',
           }}
         >
-          <img src={logoReact} height={60} alt='portada' />
           <img src={git} alt='portada' height={60} />
           <img src={logoHtml} height={60} alt='portada' />
           <img src={logoCss} height={67} alt='portada' />
+          <img src={logoReact} height={60} alt='portada' />
         </div>
         <p className='title-portada-sub'>Iniciamos en...</p>
         <p className='title-portada'>{`${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`}</p>
