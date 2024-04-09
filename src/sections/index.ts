@@ -10,3 +10,4 @@ export { default as MetodologiaParte1 } from './MetodologiaParte1';
 export { default as MetodologiaParte2 } from './MetodologiaParte2';
 export { default as InfoProfe } from './InfoProfe';
 export { default as Gracias } from './Gracias';
+export { default as ContenidoClase2 } from './ContenidoClase2';

@@ -1,7 +1,12 @@
 import '../styles/article.css'
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye'
 
-const Objetivo = () => {
+
+
+interface Props {
+  msj: string
+}
+const Objetivo = ({ msj }: Props) => {
   return (
     <section className='secciones'>
       <div
@@ -21,8 +26,8 @@ const Objetivo = () => {
             textAlignLast: 'center',
           }}
         >
-          Gracias por su atención y apoyo continuo en nuestro camino de aprendizaje en el desarrollo front-end. Recordemos que cada desafío es una oportunidad para crecer. Sigamos
-          aprendiendo, creciendo y creando juntos.
+          {msj}
+        
         </h2>
       </div>
     </section>
