@@ -1,5 +1,5 @@
 import { VerticalInfo } from '../components'
-import { Cronograma, Gracias, HtmlCurso, Htmlx, InfoProfe, MetodologiaParte1, MetodologiaParte2, Objetivo, Portada, Tema2 } from '../sections'
+import {  Gracias,InfoProfe, MetodologiaParte1, MetodologiaParte2, Objetivo, Portada,} from '../sections'
 import '../styles/styles.css'
 
 const Clase1 = () => {
